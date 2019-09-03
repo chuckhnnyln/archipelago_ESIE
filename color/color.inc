@@ -19,6 +19,7 @@ $info = [
     'titleslogan' => t('Title and slogan'),
     'text' => t('Text color'),
     'link' => t('Link color'),
+    'bob' => t('Bob!'),
   ],
   // Pre-defined color schemes.
   'schemes' => [
@@ -36,6 +37,7 @@ $info = [
         'titleslogan' => '#fffeff',
         'text' => '#3b3b3b',
         'link' => '#0071b3',
+        'bob' => '#000000',
       ],
     ],
     'firehouse' => [
@@ -52,6 +54,7 @@ $info = [
         'titleslogan' => '#fffeff',
         'text' => '#888888',
         'link' => '#d6121f',
+        'bob' => '#000fff',
       ],
     ],
     'ice' => [
@@ -84,6 +87,7 @@ $info = [
         'titleslogan' => '#ffffff',
         'text' => '#301313',
         'link' => '#9d408d',
+        'bob' => '#9d408d',
       ],
     ],
     'slate' => [
@@ -100,6 +104,7 @@ $info = [
         'titleslogan' => '#ffffff',
         'text' => '#3b3b3b',
         'link' => '#0073b6',
+        'bob' => '#9d408d',
       ],
     ],
   ],
@@ -115,7 +120,7 @@ $info = [
   ],
 
   // Preview files.
-  'preview_library' => 'archipelago_subtheme/color.preview',
+  'preview_library' => 'archipelago_ESIE/color.preview',
   'preview_html' => 'color/preview.html',
 
   // Attachments.
