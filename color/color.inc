@@ -40,6 +40,23 @@ $info = [
         'bob' => '#000000',
       ],
     ],
+    'esie' => [
+      'title' => t('ESIE Brand Colors'),
+      'colors' => [
+        'top' => '#eb5b00',
+        'bottom' => '#eb5b00',
+        'bg' => '#ffffff',
+        'sidebar' => '#f1f4f0',
+        'sidebarborders' => '#ededed',
+        'footer' => '#1f1d1c',
+        'button' => '#d6121f',
+        'buttonhover' => '#a90f19',
+        'titleslogan' => '#fffeff',
+        'text' => '#888888',
+        'link' => '#d6121f',
+        'bob' => '#000fff',
+      ],
+    ],
     'firehouse' => [
       'title' => t('Firehouse'),
       'colors' => [
@@ -120,7 +137,7 @@ $info = [
   ],
 
   // Preview files.
-  'preview_library' => 'archipelago_ESIE/color.preview',
+  'preview_library' => 'archipelago_esie/color.preview',
   'preview_html' => 'color/preview.html',
 
   // Attachments.

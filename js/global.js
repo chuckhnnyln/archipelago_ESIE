@@ -7,7 +7,7 @@
 
   'use strict';
 
-  Drupal.behaviors.archipelago_ESIE = {
+  Drupal.behaviors.archipelago_esie = {
     attach: function (context, settings) {
         $(window).on('resize', function() {
           // de-collapses if collapsed and media query restores large viewport.

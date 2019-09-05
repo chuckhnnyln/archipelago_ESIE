@@ -2,7 +2,7 @@
 
 bootstrap_barrio_subtheme.settings:
   type: theme_settings
-  label: 'archipelago_ESIE settings'
+  label: 'archipelago_esie settings'
   mapping:
     bootstrap_barrio_sidebar_position:
       type: text

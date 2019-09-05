@@ -15,7 +15,7 @@ use Drupal\Core\Form\FormStateInterface;
  * Example on how to alter theme settings form
  *
  */
-function archipelago_ESIE_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
+function archipelago_esie_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
   $form['components']['navbar']['bootstrap_barrio_navbar_top_background']['#options'] = array(
       'bg-primary' => t('Primary'),
       'bg-secondary' => t('Secondary'),

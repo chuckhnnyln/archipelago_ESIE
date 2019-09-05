@@ -6,8 +6,8 @@ description: 'A theme for Archipelago designed for Empire State Immersive Experi
 base theme: bootstrap_barrio
 
 libraries:
-  - archipelago_ESIE/bootstrap_cdn
-  - archipelago_ESIE/global-styling
+  - archipelago_esie/bootstrap_cdn
+  - archipelago_esie/global-styling
 
 regions:
   top_header: 'Top Header'
