@@ -70,6 +70,7 @@
 #}
 
 {% block head %}
+    <div class="header-top-trim">
     {% if page.secondary_menu or page.top_header or page.top_header_form %}
         <nav{{ navbar_top_attributes }}>
             {% if container_navbar %}
@@ -113,6 +114,10 @@
         {% endif %}
     </nav>
     {{ page.editor_toolbar }}
+    </div>
+    <svg class="header-accent-trim" viewBox="0 0 1862 32">
+		    <path class="header-accent-trim-class" d="M 100 0 L 1862 0 L 1862 32 L 100 32 L 100 0 Z"></path>
+	  </svg>
 {% endblock %}
 
 {% block content %}

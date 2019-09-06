@@ -21,12 +21,12 @@ body {
     border-bottom-color: #fff;
 }
 
-#navbar-top {
-    background-color: #055a8e;
+.header-top-trim {
+    background-color: #1d84c3;
 }
 
-#navbar-main {
-    background-color: #1d84c3;
+.header-accent-trim-class {
+    background-color: #055a8e;
 }
 
 a,

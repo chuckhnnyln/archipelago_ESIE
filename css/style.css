@@ -3,3 +3,48 @@
  * Subtheme specific CSS.
  */
 
+.header {
+  height: 170px;
+}
+
+.header-top-trim {
+  max-height: 60px;
+  position: relative;
+}
+
+.site_logo_group {
+  position: relative;
+  display: inline-block;
+  top: -50px;
+  left: 100px;
+  width: 165px;
+}
+
+#logo {
+  position: absolute;
+  width: 75%;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 15px;
+  z-index: 1;
+}
+
+.logo_banner {
+  position: relative;
+  display: block;
+  width: 164px;
+  height: 200px;
+  left: 0;
+  top: 0;
+  transform: rotate(4deg);
+  transform-origin: left;
+}
+
+.logo_banner_class {
+  fill: #fff;
+}
+
+.header-accent-trim {
+  position: relative;
+  top: 10px;
+}
